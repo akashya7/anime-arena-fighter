@@ -1,34 +1,21 @@
-# NEON DOJO — Anime Arena Fighter
+# NEON DOJO — Legends Awaken
 
-A no-install, single-player 2D anime-inspired fighting game. Open `index.html` in a modern browser to play; no build tools or server are required.
+A browser-playable, single-player 2D anime-inspired arcade fighting prototype. Open `index.html` in a modern browser. It needs no build tools or game engine.
 
 ## Play
 
-1. Pick one of four fighters, an AI opponent, a challenge level, and an arena.
-2. Select **Start Fight**.
-3. Fight using the keyboard:
+Pick a hero, CPU rival, difficulty, and arena, then select **Start Fight**.
 
-| Key | Move |
-| --- | --- |
-| A / D | Move left / right |
-| W | Jump |
-| J | Punch |
-| K | Kick |
-| L (hold) | Guard |
-| U | Throw |
-| Esc | Pause / return to the match |
+- **A / D** move, **W** jump
+- **J** punch, **K** kick
+- Hold **L** to guard
+- **U** uses a special energy strike (launches a projectile at range)
+- **Esc** pauses
 
-Touch controls appear on smaller screens. Sound effects are synthesized locally in the browser and can be toggled off.
+Touch controls are shown on smaller screens. Synthesized sound effects can be switched off.
 
-## Fighters
+## Original characters
 
-- **Mira — Lotus Flow:** graceful counters and long-reaching kicks.
-- **Dev — Iron Comet:** strong boxing punches and a sturdy guard.
-- **Anaya — Crimson Veil:** quick footwork and fast combos.
-- **Kiran — Skyward Fist:** technical, long-range kicks.
+The three fictional characters are original anime-inspired illustrations, designed to echo the broad clothing cues from the portraits shared in the conversation: a green-and-patterned sari look, a white shirt with dark trousers and glasses, and an azure shirt with light trousers and glasses. The portraits are references, not embedded photo assets, and the illustrations are not exact likenesses. Characters, stages, animation poses, and effects are drawn at runtime with Canvas. Select Lantern Festival, Neon Skyline, or Moon Garden.
 
-The fighters and backdrops are drawn in Canvas at runtime, so the game has no external image or audio asset dependencies. Arena selections include Lantern Festival, Skyline Rooftop, and Moon Garden.
-
-## Notes
-
-The game is a small arcade prototype, not an official Street Fighter product. All characters are fictional anime-inspired designs. The supplied reference photos are not included as assets; the game uses original stylized drawings instead.
+This is a lightweight prototype, not a finished commercial-scale game. It does not claim hand-animated production sprite sheets or photorealistic motion; file size alone cannot provide those. The code is kept self-contained so it can be tried without downloads or compilation.
